@@ -28,11 +28,28 @@ for (c, r), sub in d.groupby(['Compound', 'Receptor']):
     except Exception:
         print(f"{c:<10}{r:<9}{'fit failed':>16}")
 
-print(f"\n{'Compound':<10}{'PXR':>9}{'PPAR-a':>10}{'ratio':>9}{'preferred':>12}{'p (Welch)':>13}")
-print("-" * 63)
+print(f"\n{'Compound':<10}{'PXR':>9}{'PPAR-a':>10}{'ratio':>8}{'preferred':>11}"
+      f"{'p (biol.)':>12}{'p (tech.)':>12}")
+print("-" * 72)
+print("  p (biol.) uses the three biological replicate means and is the value")
+print("  reported in the manuscript. p (tech.) treats all nine measurements as")
+print("  independent, which they are not, and overstates significance.")
+print("-" * 72)
 for c in ['GenX', 'PFECHS', 'F-53B', 'HFPO-TA']:
-    a = d[(d.Compound==c) & (d.Receptor=='PXR')    & (d.Concentration_uM==100)].Fold_induction
-    b = d[(d.Compound==c) & (d.Receptor=='PPAR-a') & (d.Concentration_uM==100)].Fold_induction
-    t, p = stats.ttest_ind(a, b, equal_var=False)
-    pref = 'PXR' if a.mean() > b.mean() else 'PPAR-a'
-    print(f"{c:<10}{a.mean():>9.2f}{b.mean():>10.2f}{a.mean()/b.mean():>9.2f}{pref:>12}{p:>13.2e}")
+    sub = d[(d.Compound == c) & (d.Concentration_uM == 100)]
+    a = sub[sub.Receptor == 'PXR']
+    b = sub[sub.Receptor == 'PPAR-a']
+
+    # technical: all nine measurements
+    _, p_tech = stats.ttest_ind(a.Fold_induction, b.Fold_induction, equal_var=False)
+
+    # biological: mean of each biological replicate (replicates 1-3, 4-6, 7-9)
+    def bio_means(x):
+        x = x.sort_values('Replicate')
+        return [x.Fold_induction.iloc[i:i+3].mean() for i in (0, 3, 6)]
+    _, p_bio = stats.ttest_ind(bio_means(a), bio_means(b), equal_var=False)
+
+    pref = 'PXR' if a.Fold_induction.mean() > b.Fold_induction.mean() else 'PPAR-a'
+    print(f"{c:<10}{a.Fold_induction.mean():>9.2f}{b.Fold_induction.mean():>10.2f}"
+          f"{a.Fold_induction.mean()/b.Fold_induction.mean():>8.2f}{pref:>11}"
+          f"{p_bio:>12.2e}{p_tech:>12.2e}")
