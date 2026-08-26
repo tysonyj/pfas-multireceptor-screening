@@ -1,0 +1,15 @@
+; Extraction of protein-ligand interaction energies (rerun only)
+; Note 1: energygrps is incompatible with GPU nonbonded kernels -> mdrun -nb cpu is required
+; Note 2: the ligand group name must match the actual residue name (UNL as written by acpype)
+integrator      = md
+dt              = 0.002
+nsteps          = 0
+cutoff-scheme   = Verlet
+nstlist         = 20
+rcoulomb        = 1.2
+rvdw            = 1.2
+coulombtype     = PME
+pbc             = xyz
+DispCorr        = EnerPres
+nstcalcenergy   = 1
+energygrps      = Protein UNL

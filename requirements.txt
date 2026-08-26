@@ -1,0 +1,8 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+rdkit>=2024.03.1
+meeko>=0.6
+gemmi>=0.6
+openpyxl>=3.1

@@ -1,0 +1,162 @@
+{
+  "PXR": {
+    "pdb": "1ILH",
+    "chains": [
+      "A"
+    ],
+    "ref_ligand": "SRL",
+    "ref_res": "A1",
+    "center": [
+      10.41,
+      75.29,
+      -1.03
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "n_atoms": 2594,
+    "n_prot_within_8A": 39
+  },
+  "PPAR-a": {
+    "pdb": "1K7L",
+    "chains": [
+      "A"
+    ],
+    "ref_ligand": "544",
+    "ref_res": "A469",
+    "center": [
+      -17.65,
+      -14.42,
+      -5.41
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "n_atoms": 2576,
+    "n_prot_within_8A": 73
+  },
+  "PPAR-g": {
+    "pdb": "1FM6",
+    "chains": [
+      "D"
+    ],
+    "ref_ligand": "BRL",
+    "ref_res": "D503",
+    "center": [
+      16.65,
+      -20.06,
+      10.84
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "n_atoms": 2647,
+    "n_prot_within_8A": 76
+  },
+  "ER-a": {
+    "pdb": "1GWR",
+    "chains": [
+      "A"
+    ],
+    "ref_ligand": "EST",
+    "ref_res": "A600",
+    "center": [
+      -7.42,
+      -4.58,
+      12.63
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "n_atoms": 2261,
+    "n_prot_within_8A": 75
+  },
+  "TR-a": {
+    "pdb": "2H79",
+    "chains": [
+      "A"
+    ],
+    "ref_ligand": "T3",
+    "ref_res": "A1",
+    "center": [
+      26.98,
+      1.83,
+      18.33
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "n_atoms": 2660,
+    "n_prot_within_8A": 80
+  },
+  "TTR": {
+    "pdb": "1IE4",
+    "chains": [
+      "A",
+      "C"
+    ],
+    "ref_ligand": "T44",
+    "ref_res": "A128",
+    "center": [
+      29.95,
+      71.66,
+      42.29
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "n_atoms": 2242,
+    "n_prot_within_8A": 52
+  },
+  "HSA": {
+    "pdb": "2BXD",
+    "chains": [
+      "A"
+    ],
+    "ref_ligand": "RWF",
+    "ref_res": "A2001",
+    "center": [
+      3.99,
+      -10.67,
+      7.57
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "note": "Sudlow site I (subdomain IIA); validated by warfarin redocking RMSD 0.45 A"
+  },
+  "L-FABP": {
+    "pdb": "3B2H",
+    "chains": [
+      "A"
+    ],
+    "ref_ligand": "PLM",
+    "ref_res": "A151",
+    "center": [
+      -1.22,
+      -7.85,
+      23.22
+    ],
+    "size": [
+      22.3,
+      22.0,
+      22.0
+    ],
+    "n_atoms": 1353,
+    "n_prot_within_8A": 84
+  }
+}

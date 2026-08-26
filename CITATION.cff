@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated paper."
+title: "PFAS multi-receptor screening: code and data"
+authors:
+  - family-names: Kang
+    given-names: Ku
+  - family-names: Kim
+    given-names: Jeongyun
+  - family-names: Lee
+    given-names: Doo-Hee
+  - family-names: Nam
+    given-names: HanYeol
+  - family-names: Kim
+    given-names: Donghyeon
+  - family-names: Yoo
+    given-names: Jin
+    email: tysonyj@snu.ac.kr
+    affiliation: "CBRN Defense Research Institute, Ministry of National Defense"
+license: MIT

@@ -1,0 +1,66 @@
+{
+  "PXR": {
+    "dG": -7.35,
+    "rmsd": null,
+    "centroid_dev": 0.94,
+    "pass": true,
+    "rmsd_sym": null
+  },
+  "PPAR-a": {
+    "dG": -11.49,
+    "rmsd": 6.05,
+    "centroid_dev": 0.3,
+    "pass": true,
+    "sec": 53,
+    "rmsd_sym": 0.58
+  },
+  "PPAR-g": {
+    "dG": -8.04,
+    "rmsd": 4.91,
+    "centroid_dev": 1.06,
+    "pass": true,
+    "sec": 18,
+    "rmsd_sym": 1.86
+  },
+  "ER-a": {
+    "dG": -10.79,
+    "rmsd": 3.06,
+    "centroid_dev": 0.65,
+    "pass": true,
+    "sec": 3,
+    "rmsd_sym": 0.72
+  },
+  "TR-a": {
+    "dG": -9.04,
+    "rmsd": 6.26,
+    "centroid_dev": 0.19,
+    "pass": true,
+    "sec": 11,
+    "rmsd_sym": 0.7
+  },
+  "TTR": {
+    "dG": -6.07,
+    "rmsd": 6.3,
+    "centroid_dev": 0.62,
+    "pass": true,
+    "sec": 11,
+    "rmsd_sym": 1.23
+  },
+  "HSA": {
+    "dG": -9.56,
+    "rmsd_sym": 0.45,
+    "centroid_dev": 0.38,
+    "pass": true,
+    "ref_ligand": "warfarin (2BXD)",
+    "note": "1E7H \ud314\ubbf8\ud14c\uc774\ud2b8\ub85c\ub294 \uc2e4\ud328(RMSD 7.1A) \u2192 2BXD \uc6cc\ud30c\ub9b0\uc73c\ub85c \uac80\uc99d"
+  },
+  "L-FABP": {
+    "dG": -5.66,
+    "rmsd": 11.67,
+    "centroid_dev": 9.74,
+    "pass": false,
+    "sec": 16,
+    "rmsd_sym": 4.51,
+    "note": "\ud314\ubbf8\ud14c\uc774\ud2b8 \ud68c\uc804\uacb0\ud569 14\uac1c. \ubc15\uc2a4 18/16/14A, PLM150 \uacf5\ub3d9\ucda9\uc804 \ubaa8\ub450 \uc2e4\ud328. \uc815\ub7c9 \ub7ad\ud0b9 \ubd80\uc801\ud569"
+  }
+}
