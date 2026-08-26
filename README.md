@@ -172,14 +172,14 @@ The partial correlation is not significant and is unstable: removing PFECHS alon
 | Ligand preparation | RDKit ETKDGv3 + MMFF94, Meeko 0.6; carboxylates and sulfonates deprotonated at pH 7.4, sulfonamides neutral |
 | Receptor preparation | Open Babel 3.1.1, hydrogens at pH 7.4, single chain unless the site spans an interface |
 | Docking | AutoDock Vina 1.2.5, exhaustiveness 16, 9 modes, seed 42 |
-| Reporter assays | HepG2 (pSG5-hPXR + CYP3A4-XREM-luc + pRL-TK); COS-1 (pBIND-PPAR-α-LBD GAL4 + pG5-Luc + pRL-TK); 8 concentrations 0.3–100 µM; Dual-Glo, Tecan Spark; CellTiter-Glo counter-screen ≥85% viability |
-| Statistics | Spearman with 5,000-iteration bootstrap; partial Spearman by the three-variable formula, verified by rank-residual regression; Welch-corrected tests; leave-one-out leverage |
+| Reporter assays | HepG2 (pSG5-hPXR + CYP3A4-XREM-luc + pRL-TK); COS-1 (pBIND-PPAR-α-LBD GAL4 + pG5-Luc + pRL-TK); 8 concentrations 0.3–100 µM; Dual-Glo, Tecan Spark |
+| Statistics | Spearman with 5,000-iteration bootstrap; partial Spearman by the three-variable formula, verified by rank-residual regression; Welch-corrected tests on biological replicates; leave-one-out leverage |
 
 ---
 
 ## Data provenance
 
-Reporter assay measurements were recorded on 2026-05-15. `data/experimental/transactivation_source_data.csv` contains all 576 replicate-level fold-induction values as measured. Instrument-level output (Tecan Spark luminescence, CellTiter-Glo viability) is held by the corresponding author and can be provided to editors or reviewers on request.
+Reporter assay measurements were recorded on 2026-05-15. `data/experimental/transactivation_source_data.csv` contains all 576 replicate-level fold-induction values as measured. Instrument-level output (Tecan Spark luminescence) is held by the corresponding author and can be provided to editors or reviewers on request.
 
 Simulated dose–response datasets were generated during analysis development to build the fitting and plotting code. They are **not** included here and are not used for any reported quantity.
 
