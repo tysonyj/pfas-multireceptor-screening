@@ -1,0 +1,29 @@
+pfas,cas,US_EPA_NPDWR_2024,Stockholm_Annex_A_or_B,EU_DWD_2020_2184_AnnexIII,REACH_AnnexXVII_68_or_79,reg_score,notes
+PFBA,375-22-4,0,0,1,0,1,
+PFPeA,2706-90-3,0,0,1,0,1,DWD lists as "Perfluoropentanoic acid (PFPA)"
+PFHxA,307-24-4,0,0,1,1,2,Annex XVII entry 79 names PFHxA individually
+PFHpA,375-85-9,0,0,1,0,1,
+PFOA,335-67-1,1,1,1,0,3,NPDWR MCL 4.0 ng/L; Stockholm Annex A 2019
+PFNA,375-95-1,1,1,1,1,4,NPDWR MCL 10 ng/L and Hazard Index; Stockholm Annex A SC-12/12 (C9-C21 PFCA); Annex XVII entry 68 (C9-C14 PFCA)
+PFDA,335-76-2,0,1,1,1,3,Stockholm Annex A SC-12/12; Annex XVII entry 68
+PFUnDA,2058-94-8,0,1,1,1,3,Stockholm Annex A SC-12/12; Annex XVII entry 68
+PFDoDA,307-55-1,0,1,1,1,3,Stockholm Annex A SC-12/12; Annex XVII entry 68
+PFBS,375-73-5,1,0,1,0,2,NPDWR Hazard Index component only; no individual MCL
+PFPeS,2706-91-4,0,0,1,0,1,DWD lists as "Perfluoropentane sulfonic acid (PFPS)"
+PFHxS,355-46-4,1,1,1,0,3,NPDWR MCL 10 ng/L and Hazard Index; Stockholm Annex A 2022
+PFHpS,375-92-8,0,0,1,0,1,
+PFOS,1763-23-1,1,1,1,0,3,NPDWR MCL 4.0 ng/L; Stockholm Annex B 2009
+PFDS,335-77-3,0,0,1,0,1,
+GenX,13252-13-6,1,0,0,0,1,NPDWR MCL 10 ng/L and Hazard Index (HFPO-DA)
+ADONA,919005-14-4,0,0,0,0,0,
+HFPO-TA,13252-14-7,0,0,0,0,0,
+F-53B,756426-58-1,0,0,0,0,0,
+PFECHS,646-83-3,0,0,0,0,0,
+4-2-FTSA,757124-72-4,0,0,0,0,0,
+6-2-FTSA,27619-97-2,0,0,0,0,0,not individually named; may fall under entry 79 as a PFHxA-related substance (not scored)
+8-2-FTSA,39108-34-4,0,0,0,0,0,not individually named; may fall under entry 68 as a related substance (not scored)
+6-2-FTCA,53826-12-3,0,0,0,0,0,not individually named; may fall under entry 79 as a PFHxA-related substance (not scored)
+8-2-FTCA,27854-31-5,0,0,0,0,0,not individually named; may fall under entry 68 as a related substance (not scored)
+FOSA,754-91-6,0,0,0,0,0,not individually named; a PFOS precursor (not scored)
+MeFOSA,31506-32-8,0,0,0,0,0,not individually named; a PFOS precursor (not scored)
+EtFOSA,4151-50-2,0,0,0,0,0,not individually named; a PFOS precursor (not scored)

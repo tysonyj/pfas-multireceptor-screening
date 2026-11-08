@@ -5,7 +5,10 @@
     "formula": "C6H4F9O3S-",
     "mw": 327.14,
     "n_electrons": 162,
-    "nF": 9
+    "nF": 9,
+    "cas": "757124-72-4",
+    "cas_formula": "C6H4F9O3S-",
+    "cas_mw": 327.14
   },
   "6-2-FTCA": {
     "smiles": "[O-]C(=O)CC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -13,7 +16,10 @@
     "formula": "C8H2F13O2-",
     "mw": 377.08,
     "n_electrons": 184,
-    "nF": 13
+    "nF": 13,
+    "cas": "53826-12-3",
+    "cas_formula": "C8H2F13O2-",
+    "cas_mw": 377.08
   },
   "6-2-FTSA": {
     "smiles": "[O-]S(=O)(=O)CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -21,7 +27,10 @@
     "formula": "C8H4F13O3S-",
     "mw": 427.16,
     "n_electrons": 210,
-    "nF": 13
+    "nF": 13,
+    "cas": "27619-97-2",
+    "cas_formula": "C8H4F13O3S-",
+    "cas_mw": 427.16
   },
   "8-2-FTCA": {
     "smiles": "[O-]C(=O)CC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -29,7 +38,10 @@
     "formula": "C10H2F17O2-",
     "mw": 477.09,
     "n_electrons": 232,
-    "nF": 17
+    "nF": 17,
+    "cas": "27854-31-5",
+    "cas_formula": "C10H2F17O2-",
+    "cas_mw": 477.09
   },
   "8-2-FTSA": {
     "smiles": "[O-]S(=O)(=O)CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -37,7 +49,10 @@
     "formula": "C10H4F17O3S-",
     "mw": 527.17,
     "n_electrons": 258,
-    "nF": 17
+    "nF": 17,
+    "cas": "39108-34-4",
+    "cas_formula": "C10H4F17O3S-",
+    "cas_mw": 527.17
   },
   "ADONA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)OC(F)(F)C(F)(F)C(F)(F)OC(F)(F)F",
@@ -45,7 +60,10 @@
     "formula": "C7HF12O4-",
     "mw": 377.06,
     "n_electrons": 184,
-    "nF": 12
+    "nF": 12,
+    "cas": "919005-14-4",
+    "cas_formula": "C7HF12O4-",
+    "cas_mw": 377.06
   },
   "EtFOSA": {
     "smiles": "CCNS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -53,7 +71,10 @@
     "formula": "C10H6F17NO2S",
     "mw": 527.2,
     "n_electrons": 258,
-    "nF": 17
+    "nF": 17,
+    "cas": "4151-50-2",
+    "cas_formula": "C10H6F17NO2S",
+    "cas_mw": 527.2
   },
   "F-53B": {
     "smiles": "[O-]S(=O)(=O)C(F)(F)C(F)(F)OC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)Cl",
@@ -61,7 +82,10 @@
     "formula": "C8ClF16O4S-",
     "mw": 531.57,
     "n_electrons": 258,
-    "nF": 16
+    "nF": 16,
+    "cas": "756426-58-1",
+    "cas_formula": "C8ClF16O4S-",
+    "cas_mw": 531.57
   },
   "FOSA": {
     "smiles": "NS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -69,7 +93,10 @@
     "formula": "C8H2F17NO2S",
     "mw": 499.14,
     "n_electrons": 242,
-    "nF": 17
+    "nF": 17,
+    "cas": "754-91-6",
+    "cas_formula": "C8H2F17NO2S",
+    "cas_mw": 499.14
   },
   "GenX": {
     "smiles": "[O-]C(=O)C(F)(OC(F)(F)C(F)(F)C(F)(F)F)C(F)(F)F",
@@ -77,7 +104,10 @@
     "formula": "C6F11O3-",
     "mw": 329.04,
     "n_electrons": 160,
-    "nF": 11
+    "nF": 11,
+    "cas": "13252-13-6",
+    "cas_formula": "C6F11O3-",
+    "cas_mw": 329.04
   },
   "HFPO-TA": {
     "smiles": "[O-]C(=O)C(F)(C(F)(F)F)OC(F)(F)C(F)(C(F)(F)F)OC(F)(F)C(F)(F)C(F)(F)F",
@@ -85,7 +115,10 @@
     "formula": "C9F17O4-",
     "mw": 495.06,
     "n_electrons": 240,
-    "nF": 17
+    "nF": 17,
+    "cas": "13252-14-7",
+    "cas_formula": "C9F17O4-",
+    "cas_mw": 495.06
   },
   "MeFOSA": {
     "smiles": "CNS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -93,7 +126,10 @@
     "formula": "C9H4F17NO2S",
     "mw": 513.17,
     "n_electrons": 250,
-    "nF": 17
+    "nF": 17,
+    "cas": "31506-32-8",
+    "cas_formula": "C9H4F17NO2S",
+    "cas_mw": 513.17
   },
   "PFBA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)F",
@@ -101,7 +137,10 @@
     "formula": "C4F7O2-",
     "mw": 213.03,
     "n_electrons": 104,
-    "nF": 7
+    "nF": 7,
+    "cas": "375-22-4",
+    "cas_formula": "C4F7O2-",
+    "cas_mw": 213.03
   },
   "PFBS": {
     "smiles": "[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -109,7 +148,10 @@
     "formula": "C4F9O3S-",
     "mw": 299.09,
     "n_electrons": 146,
-    "nF": 9
+    "nF": 9,
+    "cas": "375-73-5",
+    "cas_formula": "C4F9O3S-",
+    "cas_mw": 299.09
   },
   "PFDA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -117,7 +159,10 @@
     "formula": "C10F19O2-",
     "mw": 513.07,
     "n_electrons": 248,
-    "nF": 19
+    "nF": 19,
+    "cas": "335-76-2",
+    "cas_formula": "C10F19O2-",
+    "cas_mw": 513.07
   },
   "PFDS": {
     "smiles": "[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -125,7 +170,10 @@
     "formula": "C10F21O3S-",
     "mw": 599.13,
     "n_electrons": 290,
-    "nF": 21
+    "nF": 21,
+    "cas": "335-77-3",
+    "cas_formula": "C10F21O3S-",
+    "cas_mw": 599.13
   },
   "PFDoDA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -133,7 +181,10 @@
     "formula": "C12F23O2-",
     "mw": 613.08,
     "n_electrons": 296,
-    "nF": 23
+    "nF": 23,
+    "cas": "307-55-1",
+    "cas_formula": "C12F23O2-",
+    "cas_mw": 613.08
   },
   "PFECHS": {
     "smiles": "[O-]S(=O)(=O)C1(F)C(F)(F)C(F)(F)C(F)(C(F)(F)C(F)(F)F)C(F)(F)C1(F)F",
@@ -141,7 +192,10 @@
     "formula": "C8F15O3S-",
     "mw": 461.12,
     "n_electrons": 224,
-    "nF": 15
+    "nF": 15,
+    "cas": "646-83-3",
+    "cas_formula": "C8F15O3S-",
+    "cas_mw": 461.12
   },
   "PFHpA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -149,7 +203,10 @@
     "formula": "C7F13O2-",
     "mw": 363.05,
     "n_electrons": 176,
-    "nF": 13
+    "nF": 13,
+    "cas": "375-85-9",
+    "cas_formula": "C7F13O2-",
+    "cas_mw": 363.05
   },
   "PFHpS": {
     "smiles": "[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -157,7 +214,10 @@
     "formula": "C7F15O3S-",
     "mw": 449.11,
     "n_electrons": 218,
-    "nF": 15
+    "nF": 15,
+    "cas": "375-92-8",
+    "cas_formula": "C7F15O3S-",
+    "cas_mw": 449.11
   },
   "PFHxA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -165,7 +225,10 @@
     "formula": "C6F11O2-",
     "mw": 313.04,
     "n_electrons": 152,
-    "nF": 11
+    "nF": 11,
+    "cas": "307-24-4",
+    "cas_formula": "C6F11O2-",
+    "cas_mw": 313.04
   },
   "PFHxS": {
     "smiles": "[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -173,7 +236,10 @@
     "formula": "C6F13O3S-",
     "mw": 399.1,
     "n_electrons": 194,
-    "nF": 13
+    "nF": 13,
+    "cas": "355-46-4",
+    "cas_formula": "C6F13O3S-",
+    "cas_mw": 399.1
   },
   "PFNA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -181,7 +247,10 @@
     "formula": "C9F17O2-",
     "mw": 463.06,
     "n_electrons": 224,
-    "nF": 17
+    "nF": 17,
+    "cas": "375-95-1",
+    "cas_formula": "C9F17O2-",
+    "cas_mw": 463.06
   },
   "PFOA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -189,7 +258,10 @@
     "formula": "C8F15O2-",
     "mw": 413.06,
     "n_electrons": 200,
-    "nF": 15
+    "nF": 15,
+    "cas": "335-67-1",
+    "cas_formula": "C8F15O2-",
+    "cas_mw": 413.06
   },
   "PFOS": {
     "smiles": "[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -197,7 +269,10 @@
     "formula": "C8F17O3S-",
     "mw": 499.12,
     "n_electrons": 242,
-    "nF": 17
+    "nF": 17,
+    "cas": "1763-23-1",
+    "cas_formula": "C8F17O3S-",
+    "cas_mw": 499.12
   },
   "PFPeA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -205,7 +280,10 @@
     "formula": "C5F9O2-",
     "mw": 263.03,
     "n_electrons": 128,
-    "nF": 9
+    "nF": 9,
+    "cas": "2706-90-3",
+    "cas_formula": "C5F9O2-",
+    "cas_mw": 263.03
   },
   "PFPeS": {
     "smiles": "[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -213,7 +291,10 @@
     "formula": "C5F11O3S-",
     "mw": 349.1,
     "n_electrons": 170,
-    "nF": 11
+    "nF": 11,
+    "cas": "2706-91-4",
+    "cas_formula": "C5F11O3S-",
+    "cas_mw": 349.1
   },
   "PFUnDA": {
     "smiles": "[O-]C(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
@@ -221,6 +302,9 @@
     "formula": "C11F21O2-",
     "mw": 563.08,
     "n_electrons": 272,
-    "nF": 21
+    "nF": 21,
+    "cas": "2058-94-8",
+    "cas_formula": "C11F21O2-",
+    "cas_mw": 563.08
   }
 }

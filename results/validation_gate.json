@@ -1,66 +1,67 @@
 {
   "PXR": {
     "dG": -7.35,
-    "rmsd": null,
     "centroid_dev": 0.94,
+    "rmsd_sym": null,
+    "metric": "centroid",
     "pass": true,
-    "rmsd_sym": null
+    "note": "reference rebuilt from SMILES; deposited coordinates could not be assembled into one connected molecule, so atom-level RMSD is undefined",
+    "n_heavy": 32
   },
   "PPAR-a": {
-    "dG": -11.49,
-    "rmsd": 6.05,
+    "dG": -11.56,
     "centroid_dev": 0.3,
+    "rmsd_sym": 0.52,
+    "metric": "rmsd_sym",
     "pass": true,
-    "sec": 53,
-    "rmsd_sym": 0.58
+    "n_heavy": 38
   },
   "PPAR-g": {
     "dG": -8.04,
-    "rmsd": 4.91,
     "centroid_dev": 1.06,
+    "rmsd_sym": 1.97,
+    "metric": "rmsd_sym",
     "pass": true,
-    "sec": 18,
-    "rmsd_sym": 1.86
+    "n_heavy": 25
   },
   "ER-a": {
-    "dG": -10.79,
-    "rmsd": 3.06,
-    "centroid_dev": 0.65,
+    "dG": -10.83,
+    "centroid_dev": 0.64,
+    "rmsd_sym": 0.7,
+    "metric": "rmsd_sym",
     "pass": true,
-    "sec": 3,
-    "rmsd_sym": 0.72
+    "n_heavy": 20
   },
   "TR-a": {
-    "dG": -9.04,
-    "rmsd": 6.26,
-    "centroid_dev": 0.19,
+    "dG": -9.03,
+    "centroid_dev": 0.18,
+    "rmsd_sym": 0.7,
+    "metric": "rmsd_sym",
     "pass": true,
-    "sec": 11,
-    "rmsd_sym": 0.7
+    "n_heavy": 23
   },
   "TTR": {
     "dG": -6.07,
-    "rmsd": 6.3,
     "centroid_dev": 0.62,
+    "rmsd_sym": 1.19,
+    "metric": "rmsd_sym",
     "pass": true,
-    "sec": 11,
-    "rmsd_sym": 1.23
+    "n_heavy": 24
   },
   "HSA": {
-    "dG": -9.56,
+    "dG": -9.54,
+    "centroid_dev": 0.37,
     "rmsd_sym": 0.45,
-    "centroid_dev": 0.38,
+    "metric": "rmsd_sym",
     "pass": true,
-    "ref_ligand": "warfarin (2BXD)",
-    "note": "1E7H \ud314\ubbf8\ud14c\uc774\ud2b8\ub85c\ub294 \uc2e4\ud328(RMSD 7.1A) \u2192 2BXD \uc6cc\ud30c\ub9b0\uc73c\ub85c \uac80\uc99d"
+    "n_heavy": 23
   },
   "L-FABP": {
-    "dG": -5.66,
-    "rmsd": 11.67,
-    "centroid_dev": 9.74,
+    "dG": -6.41,
+    "centroid_dev": 10.45,
+    "rmsd_sym": 12.68,
+    "metric": "rmsd_sym",
     "pass": false,
-    "sec": 16,
-    "rmsd_sym": 4.51,
-    "note": "\ud314\ubbf8\ud14c\uc774\ud2b8 \ud68c\uc804\uacb0\ud569 14\uac1c. \ubc15\uc2a4 18/16/14A, PLM150 \uacf5\ub3d9\ucda9\uc804 \ubaa8\ub450 \uc2e4\ud328. \uc815\ub7c9 \ub7ad\ud0b9 \ubd80\uc801\ud569"
+    "n_heavy": 18
   }
 }
